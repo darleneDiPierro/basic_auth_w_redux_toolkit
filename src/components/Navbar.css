@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #c4142b;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 90px;
+  cursor: pointer;
+}
+
+.navbar .logout {
+  background-color: #d93248;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
